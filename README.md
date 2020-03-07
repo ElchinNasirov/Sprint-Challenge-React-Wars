@@ -26,13 +26,40 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+- React is a solution to a problem that developers faced when building user interfaces. It allows developers to build complex user interfaces which have components that will change frequently over time, without having to write a lot of very tricky JavaScript code.
+
+
+
 - [ ] What does it mean to _think_ in react?
+
+- Thinking about apps as you build them. Steps you need to take, like, 
+    Step 1: Break The UI Into A Component Hierarchy.
+    Step 2: Build A Static Version in React.
+    Step 3: Identify The Minimal (but complete) Representation Of UI State.
+    Step 4: Identify Where Your State Should Live.
+    Step 5: Add Inverse Data Flow.
+- So far, we’ve built an app that renders correctly as a function of props and state flowing down the hierarchy.
+
+
 
 - [ ] Describe state.
 
+- "State" is an object that represents the parts of the app that can change. Each component can maintain its own state, which lives in an object.
+
+
+
 - [ ] Describe props.
 
+- "Props" is a special keyword in React, which stands for properties and is being used for passing data from one component to another. Furthermore, props data is read-only, which means that data coming from the parent should not be changed by child components.
+
+
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+- A "Side Effect" is anything that affects something outside the scope of the function being executed.
+- By using "Effect Hook"
+
+
 
 ## Project Set Up
 
