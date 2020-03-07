@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+
 import StarWarsCharacters from './components/StarWarsCharacters.js';
 
 const App = () => {
