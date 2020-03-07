@@ -9,6 +9,7 @@ const Card = styled.div`
     position: relative;
     border-radius: 0.2rem;
     background-color: whitesmoke;
+    color: rgb(153, 111, 56);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
     &:hover {
         bottom: .5rem;
