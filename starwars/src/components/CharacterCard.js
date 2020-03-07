@@ -13,6 +13,7 @@ const Card = styled.div`
     &:hover {
         bottom: .5rem;
         background-color:  rgba(153, 111, 56, 0.863);
+        color: whitesmoke;
     }
 `;
 
@@ -22,14 +23,14 @@ const CharacterCard = (props) => {
             <div>
                 <h2> { props.name } </h2>
                 <h4> About "{ props.name }" </h4>
-                <p> <em>Height:</em> { props.height }</p>
-                <p> <em>Mass:</em> { props.mass }</p>
-                <p> <em>Hair Color:</em> { props.hairColor }</p>
-                <p> <em>Skin Color:</em> { props.skinColor }</p>
-                <p> <em>Birth Year:</em> { props.birthYear }</p>
-                <p> <em>Gender:</em> { props.gender }</p>
-                <p> <em>Films:</em> { props.films }</p>
-                <p> <em>Starships:</em> { props.starships }</p>
+                <p> <b>Height:</b> { props.height }</p>
+                <p> <b>Mass:</b> { props.mass }</p>
+                <p> <b>Hair Color:</b> { props.hairColor }</p>
+                <p> <b>Skin Color:</b> { props.skinColor }</p>
+                <p> <b>Birth Year:</b> { props.birthYear }</p>
+                <p> <b>Gender:</b> { props.gender }</p>
+                <p> <b>Films:</b> { props.films }</p>
+                <p> <b>Starships:</b> { props.height }</p>
             </div>
         </Card>
     );

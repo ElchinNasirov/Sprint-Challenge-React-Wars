@@ -32,13 +32,13 @@ const StarWarsCharacters = () => {
                         <CharacterCard 
                         key= { char.name }
                         name= { char.name }
-                        height= { char.height }
+                        height= { char.height  }
                         mass= { char.mass }
-                        hairColor= { char.hairColor }
-                        skinColor= { char.skinColor }
-                        eyeColor= { char.eyeColor }
-                        birtYear= { char.birtYear }
-                        gender= { char.birtYear }
+                        hairColor= { char.hair_color }
+                        skinColor= { char.skin_color }
+                        eyeColor= { char.eye_color }
+                        birtYear= { char.birt_year }
+                        gender= { char.gender }
                         films= { char.films.length }
                         starships= { char.starships.length}
                         />
